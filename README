@@ -1,0 +1,5 @@
+Explanation:
+GPS Module Setup: The script uses gpsd to interface with the GPS module.
+Data Collection: It continuously collects latitude and longitude data.
+Data Transmission: The collected data, along with a device identifier and timestamp, is sent to a specified cloud server endpoint.
+Error Handling: Basic error handling is included for GPSD termination and keyboard interrupts.
